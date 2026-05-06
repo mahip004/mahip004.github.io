@@ -67,6 +67,7 @@
   .info-card .value { font-size: 13px; font-weight: 500; }
 
   .exp-card { border: 0.5px solid var(--border); border-radius: var(--radius-lg); padding: 1.25rem; margin-bottom: 1rem; background: #fff; transition: transform .2s ease, box-shadow .2s ease; }
+  body[data-theme="dark"] .exp-card { background: #151a25; }
   .exp-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
   .exp-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px; flex-wrap: wrap; gap: 6px; }
   .exp-date { font-size: 11px; color: var(--text2); }
@@ -124,6 +125,7 @@
       <li><a onclick="go('experience')">Experience</a></li>
       <li><a onclick="go('projects')">Projects</a></li>
       <li><a onclick="go('skills')">Skills</a></li>
+      <li><a onclick="go('volunteering')">Volunteering</a></li>
       <li><a onclick="go('achievements')">Achievements</a></li>
       <li><a onclick="go('contact')">Contact</a></li>
     </ul>
@@ -152,7 +154,6 @@
   <h1>Mahima Pandey</h1>
   <p class="tagline">B.Tech Computer Science & Engineering · IIIT Jabalpur · CGPA 9.2<br>Google Intern · SIH Finalist · Full-Stack & AI/ML Developer</p>
   <div class="hero-cta">
-    <a class="primary-btn" href="resume.pdf" target="_blank" rel="noopener">Download Resume</a>
     <a class="secondary-btn" onclick="go('contact')">Let's Connect</a>
   </div>
   <div class="hero-links">
@@ -167,7 +168,7 @@
 <section id="about">
   <h2>About me</h2>
   <p style="font-size:13px;color:var(--text2);line-height:1.8;max-width:640px;margin-bottom:1.5rem;">
-    I'm a third-year CSE student at IIIT Jabalpur passionate about building full-stack applications, AI/ML systems, and tackling complex algorithmic problems. I interned at Google Play as an Associate Software Developer and was a national finalist at Smart India Hackathon 2025 for an ISRO problem statement. I've solved 1000+ DSA problems and hold a Knight rank on LeetCode.
+    I'm a third-year CSE student at IIIT Jabalpur passionate about building full-stack applications, AI/ML systems, and tackling complex algorithmic problems. I interned at Google Play as an Associate Software Developer and was a national finalist at Smart India Hackathon 2025 for an ISRO problem statement. I'm also part of the Women Engineers Program by TalentSprint, focused on strengthening engineering fundamentals and industry readiness. I've solved 1000+ DSA problems and hold a Knight rank on LeetCode.
   </p>
   <div class="about-grid">
     <div class="info-card"><div class="label">University</div><div class="value">IIIT Jabalpur</div></div>
@@ -214,6 +215,36 @@
       <p>Led a 5-member team to build Battleship, Othello & Latrunculi in PyGame with AI logic for Othello and optimized graphical interfaces.</p>
       <a href="https://gitlab.com/sahayak1/gameplay" target="_blank">View on GitLab →</a>
     </div>
+    <div class="project-card">
+      <span class="project-tag">Healthcare · Full-Stack</span>
+      <h3>PharmaHub</h3>
+      <p>Built a pharmacy-focused platform in JavaScript to streamline medicine discovery and user workflows with a clean web interface.</p>
+      <a href="https://github.com/mahip004/PharmaHub" target="_blank">View on GitHub →</a>
+    </div>
+    <div class="project-card">
+      <span class="project-tag">Python · SIH Project</span>
+      <h3>SIH_25040</h3>
+      <p>Developed an SIH problem solution in Python, focusing on practical implementation, data handling, and team-driven delivery under hackathon constraints.</p>
+      <a href="https://github.com/mahip004/SIH_25040" target="_blank">View on GitHub →</a>
+    </div>
+    <div class="project-card">
+      <span class="project-tag">Community Platform · Python</span>
+      <h3>Sahayak</h3>
+      <p>Created a social-impact platform connecting volunteers with communities and NGOs to improve collaboration, outreach, and support operations.</p>
+      <a href="https://github.com/mahip004/Sahayak" target="_blank">View on GitHub →</a>
+    </div>
+    <div class="project-card">
+      <span class="project-tag">Forked Collaboration · SIH</span>
+      <h3>SIH_Rainwater</h3>
+      <p>Contributed to a forked collaborative SIH repository around water/rainwater management use cases and rapid prototyping of solution components.</p>
+      <a href="https://github.com/mahip004/SIH_Rainwater" target="_blank">View on GitHub →</a>
+    </div>
+    <div class="project-card">
+      <span class="project-tag">Forked Collaboration · React</span>
+      <h3>Fusion-Client</h3>
+      <p>Worked on a forked client-side web project to strengthen component-based UI development, collaboration workflow, and frontend integration.</p>
+      <a href="https://github.com/mahip004/Fusion-client" target="_blank">View on GitHub →</a>
+    </div>
   </div>
 </section>
 
@@ -226,6 +257,32 @@
     <div class="skill-row"><div class="skill-label">AI/ML</div><div class="skill-tags"><span class="skill-tag">PyTorch</span><span class="skill-tag">TensorFlow/Keras</span><span class="skill-tag">XGBoost</span><span class="skill-tag">GRU</span><span class="skill-tag">LLMs</span><span class="skill-tag">Cohere API</span><span class="skill-tag">Gemini API</span></div></div>
     <div class="skill-row"><div class="skill-label">Databases & Cloud</div><div class="skill-tags"><span class="skill-tag">MySQL</span><span class="skill-tag">MongoDB</span><span class="skill-tag">Firebase</span><span class="skill-tag">GCP</span></div></div>
     <div class="skill-row"><div class="skill-label">Tools</div><div class="skill-tags"><span class="skill-tag">Git</span><span class="skill-tag">GitHub</span><span class="skill-tag">GitLab</span><span class="skill-tag">Jupyter</span><span class="skill-tag">Postman</span><span class="skill-tag">LaTeX</span></div></div>
+  </div>
+</section>
+
+<section id="volunteering">
+  <h2>Volunteering</h2>
+  <div class="exp-card">
+    <div class="exp-header">
+      <h3>Student Volunteer — Jagrati</h3>
+      <span class="exp-date">Feb 2024 – Present · 2 yrs 4 mos</span>
+    </div>
+    <div class="exp-sub">Education</div>
+    <ul class="exp-bullets">
+      <li>Jagrati is an education initiative at IIITDM Jabalpur where institute students provide free tuition to children from nearby villages (Classes 3-10).</li>
+      <li>Support academic learning through regular mentorship and structured sessions across foundational subjects.</li>
+    </ul>
+  </div>
+  <div class="exp-card">
+    <div class="exp-header">
+      <h3>Student Guide — Counselling Committee, IIITDM Jabalpur</h3>
+      <span class="exp-date">Sep 2024 – Dec 2024 · 4 mos</span>
+    </div>
+    <div class="exp-sub">Education</div>
+    <ul class="exp-bullets">
+      <li>Supported and guided junior students in academics, co-curricular activities, and day-to-day campus adjustment.</li>
+      <li>Acted as a reliable point of contact for student concerns and orientation-related help.</li>
+    </ul>
   </div>
 </section>
 
@@ -294,7 +351,7 @@ function updateThemeLabel(theme) {
   themeToggle.textContent = theme === 'dark' ? 'Light mode' : 'Dark mode';
 }
 
-const savedTheme = localStorage.getItem('portfolio-theme') || 'light';
+const savedTheme = localStorage.getItem('portfolio-theme') || 'dark';
 if (savedTheme === 'dark') body.setAttribute('data-theme', 'dark');
 updateThemeLabel(savedTheme);
 
